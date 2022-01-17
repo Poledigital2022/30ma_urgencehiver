@@ -1,0 +1,59 @@
+#bridge {
+    display: block;
+    margin: 0 auto;
+    /* background-image: url(../images/png.png);
+    background-image: -webkit-image-set(url(../images/png.png) 1x, url(../images/png.png) 2x); */
+    background-size: cover;
+    width: 101%;
+    height: 100%;
+    cursor: crosshair;
+    z-index: 1;
+    cursor: url(../../../../s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btnAccroche.exitAnimation {
+    position: fixed;
+    /* position: absolute; */
+    z-index: 9;
+    bottom: 23%;
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cadreAccroche.exiteAnima {
+    position: fixed;
+    /* position: absolute; */
+    z-index: 9;
+    top: 30%;
+    left: 50%;
+    /* pointer-events: none;  */
+    transform: translate(-50%, -50%);
+}
+
+.cadreAccroche.exiteAnimabtn {
+    position: fixed;
+    /* position: absolute; */
+    z-index: 9;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    /* pointer-events: none; */
+    margin-top: 50rem;
+    padding-top: 0;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}

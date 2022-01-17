@@ -1,0 +1,615 @@
+/* media query */
+
+@media (max-width:1980px) {
+    /* .cadreStyleH1 {
+        padding-top: 34vh;
+    } */
+}
+
+@media (max-width:1920px) {
+    html {
+        font-size: .52082222vw;
+    }
+    .header-cadre {
+        min-height: min(max(14rem, 16.8rem), 140px);
+    }
+     :root .header-cadre,
+    _:-ms-fullscreen {
+        height: min(max(14rem, 16.8rem), 140px);
+    }
+    .logo-refuge {
+        width: min(max(17rem, 17.4rem), 370px);
+    }
+    /* .btDon {
+        font-family: 'Mabrouk';
+        font-size: min(max(5.2rem, 5.2rem), 6em);
+        padding: min(max(1rem, 1rem), 1rem) min(max(3rem, 3rem), 3rem);
+        border-radius: min(max(3rem, 3rem), 3rem);
+    }
+    .btDon.large {
+        font-size: min(max(1.8rem, 2.16rem), 18px);
+        padding: min(max(1.2rem, 1.6rem), 12px) min(max(2.2rem, 6.64rem), 63px);
+        border-radius: min(max(.5rem, .6rem), 5px);
+    } */
+}
+
+@media (max-width:1680px) {
+    /* .cadreStyleH1 {
+        padding-top: 43vh;
+    } */
+}
+
+@media (max-width:1360px) {
+    /* .cadreStyleH1 {
+        padding-top: 50vh;
+    } */
+}
+
+
+/* debut cadre-objectifDon */
+
+@media (max-width:1180px) {}
+
+
+/* fin cadre-objectifDon */
+
+@media (max-width:1024px) {
+    .inputGroup label::after {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5px;
+    }
+    .inputGroup input:checked~label::after {
+        border: 3px solid #fff;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 1.302083333vw;
+    }
+}
+
+@media (max-width:768px) {
+    .txtBalayage.mb {
+        display: block;
+    }
+    .txtBalayage.wb {
+        display: none;
+    }
+    /* .btDon {
+        font-size: 3.5rem;
+        padding: 2rem 2.5rem;
+        border-radius: .5rem;
+        padding: 1.5rem 2rem;
+    } */
+    /* debut header */
+    .header .icone-social-media,
+    .header.active .icone-social-media.fx {
+        display: none;
+    }
+    .header-cadre {
+        display: flex;
+    }
+    .header.active .header-cadre {
+        padding: 0 5%;
+    }
+    .btDon {
+        font-size: 3.5em;
+    }
+    .header.active .cadre2btn {
+        display: none;
+    }
+    .header.active .bouton-header-don {
+        display: block;
+    }
+    .header.active .cadreBtn-Icone {
+        width: 42rem;
+    }
+    .header.active .logo-refuge {
+        width: min(max(12rem, 12.4rem), 200px);
+    }
+    /* fin header */
+    /* debut headerAccroche*/
+    .headerAccroche {
+        background-image: url('../images/banner-dog-mb.jpg');
+        padding-bottom: 10rem;
+    }
+    .cadreAccroche {
+        width: 90%;
+    }
+    .cadreAccroche h1 .retouMb {
+        display: block;
+    }
+    .cadreAccroche h1 .retouDsktp {
+        display: none;
+    }
+    .cadreAccroche.exiteAnima {
+        padding-top: 0;
+        margin-top: 58rem;
+    }
+    .cadreAccroche.exiteAnimabtn {
+        padding-top: 0;
+        margin-top: 58rem;
+    }
+    .indiceBalayage {
+        width: 44rem;
+    }
+    .icoEcran {
+        display: none;
+    }
+    .icoMobile {
+        display: block;
+    }
+    .conteneur2btn {
+        width: auto;
+        /*65.4rem*/
+    }
+    .cadreh3 {
+        display: none;
+    }
+    .cadreh3.mb {
+        display: block;
+        width: 100%;
+    }
+    .cadreAccroche h1 {
+        font-size: 6em;
+    }
+    .cadreAccroche h2 {
+        font-size: 7em;
+    }
+    /*fixed scroll*/
+    .cadre2btn,
+    .txtAvantage.mb .cadre2btn {
+        display: none !important;
+    }
+    .fxScroll .cadre2btn {
+        display: flex !important;
+    }
+    .fxScroll.navDown {
+        position: fixed;
+        transition: all 500ms ease-in;
+        width: 90%;
+    }
+    .conteneur2btn.fxScroll {
+        bottom: 1rem;
+        transition: all 500ms ease-in;
+        z-index: 99;
+    }
+    /* fin headerAccroche*/
+    /* debut skeletteSlide1 */
+    .skeletteSlide1 {
+        padding: 1rem 0 10rem 0;
+        margin-top: 25rem;
+    }
+    .cadreSlide1 {
+        display: block;
+        padding: 0;
+        position: relative;
+    }
+    .sliderImg {
+        position: relative;
+        width: 100%;
+        order: 1;
+    }
+    .wave,
+    .wave-white {
+        display: block;
+    }
+    @keyframes wave {
+        to {
+            background-position: -100vw 80%;
+        }
+    }
+    .fond-titre {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: -36rem;
+    }
+    .sliderImg .slick-dots {
+        bottom: 6rem;
+        width: auto;
+        right: 1rem;
+    }
+    .slick-dots li {
+        margin: 0 1em !important;
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .slick-dots li a {
+        font-size: 4em;
+    }
+    .cadreslideImg .apercuSlide {
+        width: 100%;
+        border-radius: 0;
+        display: none;
+        margin-top: 14rem;
+    }
+    .cadreslideImg .apercuSlide.mb {
+        display: block;
+    }
+    .lieuRefuge {
+        top: unset;
+        right: unset;
+        bottom: 6rem;
+        left: 6rem;
+        width: 34rem;
+    }
+    .conteneurbackRefuge .backRefuge {
+        display: none;
+    }
+    .conteneurbackRefuge .backRefuge.mb {
+        display: block;
+    }
+    .cadreIconerefuge {
+        width: 78%;
+        left: 5rem;
+        top: 25%;
+    }
+    .txtRefuge {
+        font-size: 2.5em;
+    }
+    .iconeRefuge {
+        width: 4rem;
+    }
+    /*txt*/
+    .txtSlider1 {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+    .cadreSlide1 .txtBig {
+        display: none;
+    }
+    .cadreSlide1 .txtBig.mb {
+        display: block;
+        padding: 0 7rem;
+        position: absolute;
+        top: -25rem;
+        z-index: 2;
+    }
+    .conteneurtxtSlider1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btnMedium {
+        padding: 2rem 3rem;
+    }
+    .txtSmall {
+        font-size: 3.3em;
+        margin-top: 5rem;
+        padding: 0 3rem;
+    }
+    /* fin skeletteSlide1 */
+    /* debut cadreHero */
+    .cadreHero {
+        background-image: none;
+        position: relative;
+        display: table;
+    }
+    .imghero.mb {
+        display: block;
+    }
+    .hero {
+        display: block;
+        /* width: 90%; */
+        padding: 0 5%;
+        position: absolute;
+        top: 71rem;
+    }
+    .contentHeroVide {
+        display: none;
+    }
+    .contentImgHero {
+        width: 100%;
+    }
+    .cadreContentImgHero {
+        margin-top: 0;
+    }
+    .txtHero {
+        padding: 0;
+        background-color: unset;
+    }
+    .txtHero p {
+        font-size: 3.5em;
+        padding: 0 4rem;
+    }
+    /* fin cadreHero */
+    /* debut cadreChekbox */
+    .cadreChekbox {
+        /* background-image: url('../images/fond-titre-tcheckbox-section.svg');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat; */
+    }
+    .skeletteChekbox {
+        margin: 0 auto;
+        color: #fff;
+        padding-bottom: 10%;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+    }
+    .title-checkbox {
+        position: absolute;
+        display: block;
+        padding: 10rem 13% 0 13%;
+        background-color: #fff;
+        top: -25rem;
+        z-index: 2;
+    }
+    .skeletteChekbox h3 {
+        color: #D50419;
+        padding: 0 15%;
+    }
+    .skeletteChekbox .soustitre {
+        font-size: 3.2em;
+        font-weight: 500;
+        padding: 0;
+        margin-top: 0;
+        color: #1C2633;
+    }
+    .gridTchekbox {
+        display: block;
+        margin-top: 15rem;
+        padding: 40rem 10rem 0 10rem
+    }
+    .blockTchekbox {
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .header-chekbox {
+        padding-top: 4rem;
+    }
+    .corps-chekbox p {
+        font-size: 3.4em;
+        padding: 0 3rem 0 3rem;
+    }
+    .inputGroup label::after {
+        border-radius: 5px;
+    }
+    .inputGroup input:checked~label::after {
+        border: 3px solid #fff;
+    }
+    .inputGroup input:checked~.backTchekbox {
+        display: none;
+    }
+    .inputGroup input:checked~.backTchekbox.mb {
+        display: block;
+    }
+    /* fin cadreChekbox */
+    /* debut sectionCoeur */
+    .sectionCoeur {
+        background-image: none;
+        position: relative;
+        display: table;
+    }
+    .imgSectionCoeur.mb {
+        display: block;
+    }
+    .coeur {
+        display: block;
+        /* width: 90%; */
+        padding: 0;
+        position: absolute;
+        top: 71rem;
+        background-image: url(../images/back-coeur.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .coeurVide {
+        display: none;
+    }
+    .blocTxtCoeur {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 13rem;
+        margin-top: 10rem;
+        background-color: #fff;
+    }
+    .blocTxtCoeur h3 {
+        color: #D50419;
+        font-size: 5em;
+        padding: 0 15rem;
+    }
+    .blocTxtCoeur p {
+        color: #1C2633;
+        padding: 0 13rem;
+    }
+    .cadreMaitredeCoeur {
+        position: absolute;
+        right: 3rem;
+        top: -23rem;
+        max-width: 22rem;
+    }
+    /* fin sectionCoeur */
+    /* debut sectionAvantage */
+    .sectionAvantage {
+        margin-top: 71rem;
+        padding: 1rem 0 10rem 0;
+    }
+    .cadreAvantage {
+        padding: 0;
+        display: block;
+    }
+    .txtAvantage {
+        width: 100%;
+        text-align: center;
+    }
+    .txtAvantage .txtBig {
+        margin-bottom: 3rem;
+    }
+    .txtAvantage .txtSmall,
+    .txtAvantage .cadre2btn {
+        display: none;
+    }
+    .txtAvantage .sousTxtSmall {
+        display: block;
+        display: table;
+        font-size: 3.5em;
+        font-weight: 600;
+        margin: 0 auto 1rem auto;
+        padding: 0 1rem;
+        border-radius: 50px;
+        background-color: #D50419;
+    }
+    .txtAvantage.mb,
+    .txtAvantage.mb .txtSmall,
+    .txtAvantage.mb {
+        display: block;
+    }
+    .txtAvantage.mb .cadre2btn {
+        display: flex;
+    }
+    .conteneurtxtAvantage {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .conteneurtxtAvantage .txtBig {
+        padding: 0 8rem;
+    }
+    .conteneurtxtAvantage .txtSmall {
+        font-size: 3.5em;
+        padding: 0 5rem;
+    }
+    .conteneurtxtAvantage .cadre2btn {
+        padding: 0 5rem;
+    }
+    .cadreRemplissageDon {
+        width: 100%;
+    }
+    .ttlsnow {
+        display: none;
+    }
+    .headerTxtSnow {
+        margin-top: 25%;
+    }
+    /* fin sectionAvantage */
+    /* debut cadreChifreCle */
+    .cadreChifreCle {
+        padding: 10rem 0;
+    }
+    .skeletteChifreCle {
+        max-width: 100%;
+        padding: 0 12rem;
+    }
+    .chifreCle {
+        /* padding: 50px 60px 20px 60px; */
+    }
+    .imageCle img {
+        max-height: 18rem;
+    }
+    .titreChifreCle {
+        font-size: 10em;
+    }
+    .txtChifreCle {
+        font-size: 3.5em;
+        padding: 0 5rem;
+    }
+    .retourB {
+        display: none;
+    }
+    /*dots*/
+    .skeletteChifreCle .slick-dots {
+        position: relative;
+        bottom: 0;
+    }
+    /*arrows*/
+    .skeletteChifreCle .slick-prev {
+        left: 5rem;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+    }
+    .skeletteChifreCle .slick-next {
+        right: 5rem;
+        width: 30px;
+        height: 30px;
+        z-index: 1;
+    }
+    .skeletteChifreCle .slick-prev::before,
+    .skeletteChifreCle .slick-next::before {
+        font-size: 30px;
+    }
+    /* fin cadreChifreCle */
+    /* debut footer */
+    .footer {
+        padding: 6rem 0 20rem 0;
+    }
+    .cadreFooter {
+        max-width: 100%;
+        display: block;
+        padding: 0 5rem;
+        text-align: center;
+    }
+    .logofooter {
+        margin: 0 auto;
+        text-align: center;
+        display: table;
+        width: auto;
+    }
+    .logofooter img {
+        max-width: 25rem;
+    }
+    .logo-FooterImg {
+        display: none;
+    }
+    .logo-FooterImg.mb {
+        display: block;
+    }
+    .socialeMedia {
+        width: 100%;
+    }
+    .txt-socialmedia {
+        display: block;
+        font-size: 3.5em;
+        font-weight: 600;
+        margin: 10rem 0 2rem 0;
+    }
+    .cadreSocialeMedia {
+        margin: 0 6rem;
+        border-bottom: 1px solid #F4F4F4;
+        padding: 0 0 6rem 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cadreMentionLegales {
+        width: 90%;
+        margin: 6rem auto 0 auto;
+        padding: 0 3rem;
+    }
+    .cadreMentionLegales a {
+        display: inline-block;
+        font-size: 3em;
+        font-weight: 600;
+    }
+    .cadreMentionLegales a:first-child {
+        order: 3;
+    }
+    .cadreMentionLegales a:nth-child(2n) {
+        order: 2;
+    }
+    .cadreMentionLegales a:last-child {
+        order: 1;
+    }
+    /* fin footer */
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width:480px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width:320px) {
+    /* .slide-header h1,
+    .slide-header h2 {
+        font-size: 5.5vw;
+    } */
+}
