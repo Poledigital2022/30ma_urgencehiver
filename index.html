@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="fr">
+
+
+<!-- Mirrored from www.30millionsdamis.fr/jagis/urgence-hiver/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jan 2022 17:22:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '../../../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P76WNZ');
+
+        var $totDon = 0;
+        var $urlDon = "https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html";
+        var $amount= '';
+        var total = 0;
+            function recupCheck(item) {
+                if (item.checked) {
+                    
+                    $(".avantDon").text(' de ');
+                    $(".apresDon").text(' €');
+                    total += parseInt(item.value);
+                    $amount='?amount=';
+                } else {
+                    total -= parseInt(item.value);
+                }            
+                //alert(total);
+                if(total>0)
+                {
+                    document.getElementById('totalDon').innerHTML = total;
+
+                    $("#btnUrl").attr('href', $urlDon + $amount + total);
+                }
+                else{
+                    $(".avantDon").text('');
+                    $(".apresDon").text('');
+                    document.getElementById('totalDon').innerHTML = '';
+
+                    $("#btnUrl").attr('href', $urlDon);
+
+                }
+            }
+            
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Primary Meta Tags -->
+
+    <title> Urgence Refuges | 30 Millions d’Amis </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+    <meta name="title" content="Nos refuges partenaires ont besoin de vous ! | 30 Millions d’Amis">
+    <meta name="description" content="L’abandon n’a pas de saison. Ensemble, aidons nos Amis à survivre à l’hiver.">
+    <meta name="author" content="Fondation 30 Millions d’Amis">
+    <meta name="language" content="fr">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/scrach.css">
+
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+    <!-- og facebook-->
+    <meta property="og:title" content=" Urgence Hiver ">
+    <meta property="og:description" content="L’abandon n’a pas de saison. Ensemble, aidons nos Amis à survivre à l’hiver. Soutenez @30millionsdamis #UrgenceHiver">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/">
+    <meta property="og:image" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/images/background-facebook.jpg">
+
+    <!-- og twitter-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/" />
+    <meta name="twitter:title" content="Urgence Hiver" />
+    <meta name="twitter:image" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/images/background-twitter.jpg">
+    <meta property="og:description" content="L’abandon n’a pas de saison. Ensemble, aidons nos Amis à survivre à l’hiver. Soutenez @30millionsdamis #UrgenceHiver">
+    <meta property="og:url" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/">
+
+    <!-- og whatsapp-->
+    <meta property="og:description" content="L’abandon n’a pas de saison. Ensemble, aidons nos Amis à survivre à l’hiver. Soutenez @30millionsdamis #UrgenceHiver">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.30millionsdamis.fr/jagis/urgence-hiver/">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P76WNZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="loader-page">
+        <div id="loader"></div>
+        <p class="chargement">Chargement</p>
+    </div>
+    <div class="cadre">
+        <header id="header" class="header">
+            <div class="header-cadre">
+                <div class="logo-refuge">
+                    <a href="https://www.30millionsdamis.fr/" target="_blank">
+                        <img class="refugeLogoimg" src="images/logo.svg" alt="Urgence Refuges | 30 Millions d’Amis">
+                        <img class="refugeLogoimg fx" src="images/logo-fx.svg" alt="Urgence Refuges | 30 Millions d’Amis">
+                    </a>
+                </div>
+                <!-- /.header-cadre -->
+                <div class="icone-social-media fx">
+                    <a href="whatsapp://send?text=L%E2%80%99abandon%20n%E2%80%99a%20pas%20de%20saison.%20Ensemble%2C%20aidons%20nos%20Amis%20%C3%A0%20survivre%20%C3%A0%20l%E2%80%99hiver.%20Soutenez%20%4030millionsdamis%20%23UrgenceHiver%20https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" data-action="share/whatsapp/share" class="icoWhatsapp share share-quote-whatsapp" title="Whatsapp"><i class="fa fa-whatsapp"></i><img src="images/whatsapp.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" class="icoFacebook  share share-quote-facebook" title="Facebook"><i class="fa fa-facebook"></i><img src="images/twitter.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+
+                    <a href="https://twitter.com/intent/tweet?text=L%E2%80%99abandon%20n%E2%80%99a%20pas%20de%20saison.%20Ensemble%2C%20aidons%20nos%20Amis%20%C3%A0%20survivre%20%C3%A0%20l%E2%80%99hiver.%20Soutenez%20%4030millionsdamis%20%23UrgenceHiver%20https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" class="icoTwitter share  share-quote-twitter" title="Twitter"><i class="fa fa-twitter"></i><img src="images/facebook.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+                </div>
+                <div class="cadreBtn-Icone">
+                    <div class="icone-social-media">
+                        <a href="whatsapp://send?text=L%E2%80%99abandon%20n%E2%80%99a%20pas%20de%20saison.%20Ensemble%2C%20aidons%20nos%20Amis%20%C3%A0%20survivre%20%C3%A0%20l%E2%80%99hiver.%20Soutenez%20%4030millionsdamis%20%23UrgenceHiver%20https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" data-action="share/whatsapp/share" class="icoWhatsapp share share-quote-whatsapp" title="Whatsapp"><i class="fa fa-whatsapp"></i><img src="images/whatsapp.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" class="icoFacebook  share share-quote-facebook" title="Facebook"><i class="fa fa-facebook"></i><img src="images/twitter.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+
+                        <a href="https://twitter.com/intent/tweet?text=L%E2%80%99abandon%20n%E2%80%99a%20pas%20de%20saison.%20Ensemble%2C%20aidons%20nos%20Amis%20%C3%A0%20survivre%20%C3%A0%20l%E2%80%99hiver.%20Soutenez%20%4030millionsdamis%20%23UrgenceHiver%20https://www.30millionsdamis.fr/jagis/urgence-hiver/" target="_blank" rel="noopener noreferrer" class="icoTwitter share  share-quote-twitter" title="Twitter"><i class="fa fa-twitter"></i><img src="images/facebook.svg" alt="Urgence Refuges | 30 Millions d’Amis"></a>
+                    </div>
+                    <!-- /.icone-social-media -->
+                    <div class="bouton-header-don">
+                        <a href="#ecran2" target="_blank" class="btDon pointEventNone" data-utmlink>Urgence Hiver <span class="dateTransparent">2021</span></a>
+                    </div>
+                    <div class="cadre2btn">
+                        <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                        <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                    </div>
+                    <!-- /.bouton-header-don -->
+                </div>
+
+
+            </div>
+            <!-- /.headerContainer -->
+        </header>
+
+        <!-- debut headerAccroche -->
+        <div id="ecran1" class="headerAccroche">
+            <canvas id="bridge" width="1920" height="1081">
+            </canvas>
+            <div class="cadreAccroche">
+                <h2>l’abandon n’a pas de saison</h2>
+                <div class="cadreh3">
+                    <h3>Ensemble, aidons nos Amis</h3>
+                    <h3>à survivre à l’hiver</h3>
+                </div>
+                <div class="cadreh3 mb">
+                    <h3>Ensemble,</h3>
+                    <h3>aidons nos Amis</h3>
+                    <h3>à survivre à l’hiver</h3>
+                </div>
+                <div class="conteneur2btn fxScroll">
+                    <div class="cadre2btn">
+                        <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                        <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cadreAccroche exiteAnima pointereventsNone">
+                <div class="">
+                    <h1 class="pointereventsNone noselect">Découvrez la <br class="retouMb">triste réalité <br class="retouDsktp">de cette fin d’année</h1>
+                    <div class="indiceBalayage">
+                        <div class="imgBalayage pointereventsNone"><img class="icoEcran" src="images/ecran.png"><img class="icoMobile" src="images/mobile.png"></div>
+                        <span class="txtBalayage wb pointereventsNone noselect">en balayant l’écran <br>avec votre souris</span>
+                        <span class="txtBalayage mb pointereventsNone noselect">en dégivrant l'écran avec votre doigt</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cadreAccroche exiteAnimabtn pointereventsNone">
+                <div class="btnAccroche">
+                    <a href="#ecran1" data-utmlink>Je découvre</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- fin  headerAccroche -->
+
+        <!-- debut skeletteSlide1 -->
+        <div class="skeletteSlide1">
+            <div class="cadreSlide1">
+                <p class="txtBig mb">Nos 250 refuges partenaires ont plus que jamais besoin de votre soutien pour faire face à la rigueur de l’hiver</p>
+                <div class="cadre-wave">
+                    <div class="wave"></div>
+                </div>
+                
+                <!-- <img class="fond-titre" src="images/fond-titre.svg"> -->
+                <div class="sliderImg">
+                    <div class="cadreslideImg">
+                        <div class="lieuRefuge">
+                            <div class="conteneurbackRefuge">
+                                <div class="cadreIconerefuge">
+                                    <img class="iconeRefuge" src="images/refuge.svg">
+                                    <span class="txtRefuge">Refuges du grand ouest</span>
+                                </div>
+                                <img class="backRefuge" src="images/back-refuge.png">
+                                <img class="backRefuge mb" src="images/back-refuge-mb.png">
+
+                            </div>
+                        </div>
+                        <img class="apercuSlide" src="images/chat-cage.jpg">
+                        <img class="apercuSlide mb" src="images/chat-cage-mb.jpg">
+
+                    </div>
+                    <div class="cadreslideImg">
+                        <div class="lieuRefuge">
+                            <div class="conteneurbackRefuge">
+                                <div class="cadreIconerefuge">
+                                    <img class="iconeRefuge" src="images/refuge.svg">
+                                    <span class="txtRefuge">Refuges <br>d’Île-de-France</span>
+                                </div>
+                                <img class="backRefuge" src="images/back-refuge.png">
+                                <img class="backRefuge mb" src="images/back-refuge-mb.png">
+                            </div>
+                        </div>
+                        <img class="apercuSlide" src="images/chien01.jpg">
+                        <img class="apercuSlide mb" src="images/chien01-mb.jpg">
+                    </div>
+                    <div class="cadreslideImg">
+                        <div class="lieuRefuge">
+                            <div class="conteneurbackRefuge">
+                                <div class="cadreIconerefuge">
+                                    <img class="iconeRefuge" src="images/refuge.svg">
+                                    <span class="txtRefuge">Refuges du grand ESt</span>
+                                </div>
+                                <img class="backRefuge" src="images/back-refuge.png">
+                                <img class="backRefuge mb" src="images/back-refuge-mb.png">
+                            </div>
+                        </div>
+                        <img class="apercuSlide" src="images/chien02.jpg">
+                        <img class="apercuSlide mb" src="images/chien02-mb.jpg">
+                    </div>
+                </div>
+                <div class="txtSlider1">
+                    <div class="conteneurtxtSlider1">
+                        <div class="bouton-header-don">
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" target="_blank" class="btDon Bg pointEventNone" data-utmlink>Urgence Hiver</a>
+                        </div>
+                        <p class="txtBig">Nos 250 refuges partenaires ont plus que jamais besoin de votre soutien pour faire face à la rigueur de l’hiver</p>
+                        <p class="txtSmall">En cette saison, les frais de nourriture, de soins vétérinaires et de chauffage sont bien plus importants. Nous devons permettre à nos refuges partenaires de continuer de <span class="bold">sauver, nourrir et soigner les milliers d’animaux abandonnés</span>.</p>
+                        <div class="cadre2btn">
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- fin skeletteSlide1 -->
+
+        <!-- debut cadreHero -->
+        <div class="cadreHero">
+
+            <img class="imghero mb" src="images/imghero-mb.jpg">
+            <div class="hero">
+                <div class="contentHeroVide">
+                    &nbsp;
+                </div>
+                <div class="contentImgHero">
+                    <div class="cadreContentImgHero">
+                        <div class="txtHero">
+                            <h3>Abandonné et affaibli</h3>
+                       
+                            <p>Hope fait partie des 20 000 animaux recueillis par nos refuges partenaires.</p>
+                            <div class="cadre2btn">
+                                <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                                <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- fin cadreHero -->
+
+        <!-- debut cadreChekbox -->
+        <div class="cadreChekbox">
+            <div class="skeletteChekbox">
+                <div class="title-checkbox">
+                    <h3>Je fais un don pour Hope et ses amis</h3>
+                    <p class="soustitre">Pour survivre à l’hiver, nos milliers d’Amis déjà meurtris par l’abandon ont besoin de vous pour passer l’hiver au chaud et en bonne santé.</p>
+                    
+                </div>
+                <div class="cadre-wave">
+                        <div class="wave-white"></div>
+                    </div>
+                <div class="gridTchekbox">
+                    <div class="blockTchekbox inputGroup">
+                        <input id="option1" name="option1" type="checkbox" value="30" onClick="recupCheck(this);" />
+                        <label for="option1">&nbsp;</label>
+                        <img class="backTchekbox" src="images/back-chekbox.png">
+                        <img class="backTchekbox mb" src="images/back-chekbox-mb.png">
+                        <div class="header-chekbox">
+                            <img class="img-chekbox" src="images/laitiere1.png">
+                            <span class="montant-Don">30 €</span>
+                        </div>
+                        <div class="corps-chekbox">
+                            <p>Pour subvenir à leurs besoins et leur offrir une nourriture plus riche adaptée à la saison.</p>
+                        </div>
+                    </div>
+                    <div class="blockTchekbox inputGroup">
+
+                        <input id="option2" name="option2" type="checkbox" value="60" onClick="recupCheck(this);" />
+                        <label for="option2">&nbsp;</label>
+                        <img class="backTchekbox" src="images/back-chekbox.png">
+                        <img class="backTchekbox mb" src="images/back-chekbox-mb.png">
+                        <div class="header-chekbox">
+                            <img class="img-chekbox" src="images/lait1.png">
+                            <span class="montant-Don">60 €</span>
+                        </div>
+                        <div class="corps-chekbox">
+                            <p>Pour leur prodiguer les soins médicaux vitaux nécessaires à leur bon rétablissement.</p>
+                        </div>
+                    </div>
+                    <div class="blockTchekbox inputGroup">
+
+                        <input id="option3" name="option3" type="checkbox" value="100" onClick="recupCheck(this);" />
+                        <label for="option3">&nbsp;</label>
+                        <img class="backTchekbox" src="images/back-chekbox.png">
+                        <img class="backTchekbox mb" src="images/back-chekbox-mb.png">
+                        <div class="header-chekbox">
+                            <img class="img-chekbox" src="images/radiateur1.png">
+                            <span class="montant-Don">100 €</span>
+                        </div>
+                        <div class="corps-chekbox">
+                            <p>Pour leur apporter un peu de chaleur en couvrant une partie des frais de chauffage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cadreBigBtn">
+                    <a id="btnUrl" class="bigBtn rouge" href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" target="_blank" data-utmlink>JE valide mon DON<span class="avantDon"></span><span id="totalDon"></span><span class="apresDon"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- fin cadreChekbox -->
+
+        <!-- debut sectionCoeur -->
+
+        <div class="sectionCoeur">
+            <img class="imgSectionCoeur mb" src="images/cat-with-man-mb.jpg">
+            <div class="coeur">
+                <div class="coeurVide">
+                    &nbsp;
+                </div>
+                <div class="blocTxtCoeur">
+
+                    <div class="cadreMaitredeCoeur">
+                        <img class="maitredeCoeur" src="images/maitre-de-coeur.png">
+                    </div>
+                    <h3>Engagez-vous toute l’année en devenant Maître de coeur</h3>
+                    <p>Grâce au prélèvement automatique, chaque mois agissez contre la maltraitance et faites évoluer la condition des animaux dans notre société.</p>
+                    <a class="bigBtn bleu gauche" href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" target="_blank" data-utmlink>JE DEVIENS MAÎTRE de Coeur</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- fin sectionCoeur -->
+
+        <!-- debut sectionAvantage -->
+        <div class="sectionAvantage">
+            <div class="cadreAvantage">
+                <div class="txtAvantage">
+                    <div class="conteneurtxtAvantage">
+                        <p class="txtBig">Votre soutien financier vous fait bénéficier d’avantages fiscaux</p>
+                        <p class="txtSmall">66 % de votre don est déductible de votre impôt sur le revenu (IR) dans la limite de 20% de votre revenu imposable.</p>
+                        <p class="sousTxtSmall">Votre don de 100 € ne vous coûte</p>
+                        <p class="sousTxtSmall">en réalité que <span class="totD">34</span>€</p>
+                        <div class="cadre2btn">
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cadreRemplissageDon">
+                    <div class="container">
+                        <div class="wrap">
+                            <canvas id="c1"></canvas>
+                            <canvas id="c2"></canvas>
+                            <div class="snowglobe">
+                                <div class="headerTxtSnow">
+                                    <p class="ttlsnow">Votre don de </p>
+                                    <p class="Bprice">100 €</p>
+                                </div>
+                                <div class="tree"></div>
+                                <div class="snow-layer">
+
+                                </div>
+                                <div class="footerTxtSnow">
+                                    <p class="ttlsnow">ne vous coûte que </p>
+                                    <p class="Bprice">34 €</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="txtAvantage mb">
+                    <div class="conteneurtxtAvantage">
+                        <p class="txtSmall">66 % de votre don est déductible<br> de votre impôt sur le revenu (IR) dans la limite de 20% de votre revenu<br> imposable.</p>
+                        <div class="cadre2btn">
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html" class="btnMedium rouge" target="_blank" data-utmlink>JE donne une Fois cet hiver</a>
+                            <a href="https://don.30millionsdamis.fr/asso/site/30ma/refugeshiver/fr/don/index1.html?periodicity=month" class="btnMedium bleu" target="_blank" data-utmlink>Je donne toute l’année</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin sectionAvantage -->
+
+        <!-- debut cadreChifreCle -->
+        <div class="cadreChifreCle">
+            <div class="skeletteChifreCle">
+                <div class="chifreCle">
+                    <div class="imageCle">
+                        <img src="images/calendar.png">
+                    </div>
+
+                    <p class="titreChifreCle">1 an</p>
+                    <p class="txtChifreCle">c’est le temps qu’il faut pour<br class="retourB"> remettre sur pattes un animal<br class="retourB"> blessé et meurtri</p>
+                </div>
+                <div class="chifreCle">
+                    <div class="imageCle">
+                        <img src="images/2chat.png">
+                    </div>
+                    <p class="titreChifreCle">20 000</p>
+                    <p class="txtChifreCle">animaux vivent<br class="retourB"> dans nos refuges<br class="retourB"> partenaires</p>
+                </div>
+                <div class="chifreCle">
+                    <div class="imageCle">
+                        <img src="images/home.png">
+                    </div>
+                    <p class="titreChifreCle">79</p>
+                    <p class="txtChifreCle">animaux sont accueillis par<br class="retourB"> refuge pour environ<br class="retourB"> 50 places disponibles</p>
+                </div>
+            </div>
+        </div>
+        <!-- fin cadreChifreCle -->
+
+        <!-- debut footer -->
+        <div class="footer">
+            <div class="cadreFooter">
+                <div class="logofooter">
+                    <a href="https://www.30millionsdamis.fr/"  target="_blank" data-utmlink>
+                        <img class="logo-FooterImg" src="images/logo.svg" alt="logo">
+                        <img class="logo-FooterImg mb" src="images/logo.svg" alt="logo"></a>
+                </div>
+                <div class="socialeMedia">
+                    <p class="txt-socialmedia">Retrouvez-nous également sur :</p>
+                    <div class="cadreSocialeMedia">
+                        
+                        <a href="https://www.facebook.com/30millionsdamis" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/30millionsdamis/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/30millionsdamis" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/user/Fonda30MillionsdAmis" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="cadreMentionLegales">
+                    <a href="https://www.30millionsdamis.fr/mentions-legales/"  target="_blank" data-utmlink>Mentions légales</a>
+                    <a href="javascript:void(0)" id="myBtn" class="modal-toggle">Crédits</a>
+                    <a href="https://www.30millionsdamis.fr/contact/"  target="_blank" data-utmlink>Contact</a>
+                </div>
+                
+                <div class="modal">
+                    <div class="modal-content">
+                        <p>Crédit photos : iStock, GettyImages, AdobeStock et Fondation 30 Millions d’Amis Made by <a href="http://hopening.fr/" target="_blank" data-utmlink>HOPENING</a></p>
+                    </div>
+                    <div class="modal-close"><i class="fa fa-times"></i></div>
+                </div>    
+
+
+            </div>
+        </div>
+        <!-- fin footer -->
+
+    </div>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/scrpt.js"></script>
+    <script type="text/javascript" src="js/scrach.js"></script>
+</body>
+
+
+<!-- Mirrored from www.30millionsdamis.fr/jagis/urgence-hiver/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jan 2022 17:22:43 GMT -->
+</html>
